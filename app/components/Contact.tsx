@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
       <div className="grid items-center justify-center my-auto p-12">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-light tracking-tight text-gray-900 sm:text-6xl mb-8">
-            Let&ampos;s Connect!
+            Let&apos;s Connect!
           </h2>
         </div>
 
