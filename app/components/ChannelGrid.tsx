@@ -7,7 +7,7 @@ const ClickSfx = "/assets/click.mp3";
 interface Channel {
   complete: boolean;
   title: string;
-  component?: React.ComponentType<{}>;
+  component?: React.ComponentType<Record<string, never>>;
 }
 
 // Define the props type for ChannelGrid
