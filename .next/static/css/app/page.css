@@ -1,0 +1,23 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/components/css/disc.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes rotate-y {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.disc-image {
+  height: auto;
+  max-width: 75%; /* Adjust the size as needed */
+  max-height: 75%; /* Adjust the size as needed */
+  transform-origin: center;
+}
+
+.animate-rotate-y {
+  animation: rotate-y 6s linear infinite;
+}
+
