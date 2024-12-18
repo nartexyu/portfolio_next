@@ -64,7 +64,7 @@ const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onContinue }) => {
               ></path>
             </g>
           </svg>
-          WELCOME-NATHANIEL YU'S PORTFOLIO
+          WELCOME-NATHANIEL YU&ampos;S PORTFOLIO
         </h1>
         <p className="text-4xl font-light mb-12 leading-relaxed">
           BEFORE EXPLORING, MAKE SURE YOUR SCREEN IS AT A PROPER RESOLUTION OR

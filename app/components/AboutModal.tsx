@@ -35,7 +35,7 @@ const AboutModal: React.FC<AboutModalProps> = ({ openAbout, closeAbout }) => (
           </div>
           <div className="lg:w-1/2 w-full p-4">
             <h1 className="text-3xl font-bold mb-4">About Me</h1>
-            <p>Hello! I'm Nathaniel Yu, a data scientist with a strong foundation in business and web development. I hold a B.S. in Business Administration from USC and an M.S. in Information Management from National Taiwan University of Science and Technology. My journey in data science has involved developing advanced machine learning models and implementing innovative data processing techniques. I also work as a freelance web developer, helping clients enhance their online presence with modern web technologies. Let's connect and explore how we can collaborate on exciting projects!
+            <p>Hello! I&apos;m Nathaniel Yu, a data scientist with a strong foundation in business and web development. I hold a B.S. in Business Administration from USC and an M.S. in Information Management from National Taiwan University of Science and Technology. My journey in data science has involved developing advanced machine learning models and implementing innovative data processing techniques. I also work as a freelance web developer, helping clients enhance their online presence with modern web technologies. Let&ampos;s connect and explore how we can collaborate on exciting projects!
             </p>
           </div>
         </div>
