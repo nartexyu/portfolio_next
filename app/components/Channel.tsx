@@ -7,7 +7,7 @@ interface ChannelProps {
   hasProject: boolean; // Whether the channel has a project
   complete?: boolean;
   bgImg?: string; // Optional background image
-  component?: React.ComponentType<any>; // Optional React component to render
+  component?:  React.ComponentType<Record<string, never>>; // Optional React component to render
 }
 
 const Channel: React.FC<ChannelProps> = ({

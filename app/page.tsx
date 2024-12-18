@@ -22,7 +22,7 @@ import Disc from "./components/ChannelBgs/Disc";
 type Channel = {
   title: string;
   complete: boolean;
-  component?: React.ComponentTyp<{}>;
+  component?:  React.ComponentType<Record<string, never>>;
   link?: string;
   channelBg?: string;
   isVideo?: boolean;
@@ -52,7 +52,7 @@ type ChannelState = {
   active: boolean;
   complete: boolean;
   channelNum: number | null;
-  channelComponent: React.ComponentType<{}> | null;
+  channelComponent:  React.ComponentType<Record<string, never>> | null;
   channelLink: string | null; 
   channelBg?: string;
   isVideo?: boolean;
